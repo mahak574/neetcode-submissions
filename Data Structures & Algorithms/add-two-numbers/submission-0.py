@@ -2,9 +2,7 @@
 # class ListNode:
 #     def __init__(self, val=0, next=None):
 #         self.val = val
-#         self.next = next
-#
-
+#         self.next = next #
 class Solution:
     def add(self, l1: Optional[ListNode], l2: Optional[ListNode], carry: int) -> Optional[ListNode]:
         if not l1 and not l2 and carry == 0:
